@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-image: linear-gradient(to top, #008296 , #007896); */
+}
+
+h1 {
+    /* color: #ff7676; */
+    color: white;
+}
+
+input {
+    width: 100%;
+    font-size: 20px;
+    display: block;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('fonts/font.otf') format("opentype");
+  }
+
+  @font-face {
+    font-family: lato;
+    src: url('fonts/Raleway-Regular.ttf');
+  }
+
+
+.top-div {
+    height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(to top, #282c34 , #292834);
+    /* background: #282c34;  */
+    text-align: center;
+    position: relative;
+    margin-bottom: 80px;
+
+}
+
+p {
+    font-size: 22px;
+    color: #4b4b4b;
+    text-align: center;
+    font-family: 'Arial';
+}
+
+.top-div .header {
+    position: absolute;
+    bottom: -49px;
+    margin: 0;
+    padding: 0;
+    background:#008296;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.header h1 {
+    font-size: 100px;
+    font-family: 'lato';
+    font-weight: 100;
+    line-height: 100px;
+    margin: 0;
+}
+
+/**
+#a8dfee light
+#ff7676 red 
+#008296 dark
+*/

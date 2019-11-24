@@ -14,6 +14,19 @@ h1 {
     color: white;
 }
 
+.binary{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 50vw;
+    text-align: left;
+    color: #283134;
+    word-wrap: break-word;
+    opacity: 0.5;
+    font-family: 'arial';
+    user-select: none;
+}
+
 input {
     width: 100%;
     font-size: 20px;
@@ -68,6 +81,45 @@ p {
     line-height: 100px;
     margin: 0;
 }
+
+.link {
+    display: inline-block;
+    margin: 0 20px;
+}
+.link img {
+    width: 50px;
+    height: 50px;
+}
+
+.links{
+    margin: 0 auto;
+    text-align: center;
+}
+
+img{
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+img[data-src]{
+    opacity: 0;
+}
+
+
+
+@media only screen and (max-width: 769px) {
+    .binary {
+        width: 100vw;
+    }
+
+    .link img {
+        width: 50px;
+        height: 50px;
+    }
+  }
+
+
+
 
 /**
 #a8dfee light
